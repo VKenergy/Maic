@@ -1,6 +1,9 @@
 [build]
   publish = "templates"
-  command = "python app.py"
+  command = "python functions/app.py"
 
 [build.environment]
   PYTHON_VERSION = "3.8"
+
+[functions]
+  directory = "functions"
