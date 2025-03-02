@@ -5,5 +5,5 @@
 [build.environment]
   PYTHON_VERSION = "3.8"
 
-[[plugins]]
-  package = "netlify-plugin-flask"
+[functions]
+  directory = "functions"
