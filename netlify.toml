@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  command = "python functions/app.py"
+
+[build.environment]
+  PYTHON_VERSION = "3.8"
+
+[functions]
+  directory = "functions"
